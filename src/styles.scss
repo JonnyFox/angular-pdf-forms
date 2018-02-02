@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  font-family: 'Roboto';
+  background: #efefef;
+  margin: 0;
+}
+
+.ng2-pdf-viewer-container{
+    overflow-x: initial !important;
+}
+
+.page {
+  box-shadow: 0 0 7px rgba(0, 0, 0, .14), 0 7px 8px rgba(0, 0, 0, .28) !important;
+}
+
+button {
+    outline: none !important;
+
+    &[mat-fab] {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+    }
+}
+
+.mat-mini-fab.mat-accent {
+    position: fixed;
+    bottom: 6rem;
+    right: 2.5rem;
+}
